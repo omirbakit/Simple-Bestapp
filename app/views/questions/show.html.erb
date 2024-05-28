@@ -1,0 +1,11 @@
+<div class="container">
+  <h1><%= @question.title %></h1>
+
+  <p>
+    <%= @question.body %>
+    <br>
+    <time datetime="<%= @question.formatted_time %>">
+      <%= @question.formatted_time %>
+    </time>
+  </p>
+</div>  

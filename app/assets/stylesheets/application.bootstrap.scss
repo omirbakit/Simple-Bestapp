@@ -1,0 +1,11 @@
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.field-with-errors {
+  .form-control {
+    border-color: red;
+  }
+  label {
+    color: red;
+  }
+}
